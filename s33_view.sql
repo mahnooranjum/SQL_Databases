@@ -1,0 +1,6 @@
+CREATE VIEW appendOnY AS
+SELECT * 
+FROM "W"
+UNION 
+SELECT * 
+FROM "V"
