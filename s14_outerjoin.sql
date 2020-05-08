@@ -1,0 +1,7 @@
+-- FULL OUTER JOIN 
+-- UNION OF SETS 
+
+SELECT "X"."SNO" , "Y"."SNO" 
+FROM 
+"X" FULL OUTER JOIN "Y" ON  "X"."SNO"  = "Y"."SNO" 
+WHERE "Y"."SNO" IS NOT null
